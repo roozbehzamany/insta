@@ -1,0 +1,213 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.InstaPost" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white_adora</item>
+        <item name="colorPrimaryVariant">@color/purple</item>
+        <item name="colorOnPrimary">@color/black_adora</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/red</item>
+        <item name="colorSecondaryVariant">@color/red</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <!-- Customize your theme here. -->
+
+        <!--        <item name="fontFamily">@font/english</item>-->
+    </style>
+
+    <!--
+    app:autoSizeMaxTextSize="@dimen/_12ssp"
+    app:autoSizeMinTextSize="@dimen/_3ssp"
+    app:autoSizeTextType="uniform"
+    -->
+    <style name="textPoppinsBold18">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?colorPrimaryVariant</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="autoSizeMaxTextSize">@dimen/_14ssp</item>
+        <item name="autoSizeMinTextSize">@dimen/_3ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/_4sdp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="textPoppinsBold16">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?colorPrimaryVariant</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="autoSizeMaxTextSize">@dimen/_12ssp</item>
+        <item name="autoSizeMinTextSize">@dimen/_3ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/_4sdp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="textPoppinsBold14">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?colorPrimaryVariant</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="autoSizeMaxTextSize">@dimen/_10ssp</item>
+        <item name="autoSizeMinTextSize">@dimen/_3ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/_4sdp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="textSemiBold20">
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?colorPrimaryVariant</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="autoSizeMaxTextSize">@dimen/_16ssp</item>
+        <item name="autoSizeMinTextSize">@dimen/_3ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/_4sdp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="textSemiBold18">
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?colorPrimaryVariant</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="autoSizeMaxTextSize">@dimen/_14ssp</item>
+        <item name="autoSizeMinTextSize">@dimen/_3ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/_4sdp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="textSemiBold16">
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?colorPrimaryVariant</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="autoSizeMaxTextSize">@dimen/_13ssp</item>
+        <item name="autoSizeMinTextSize">@dimen/_3ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/_4sdp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="textSemiBold14">
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?colorPrimaryVariant</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="autoSizeMaxTextSize">@dimen/_12ssp</item>
+        <item name="autoSizeMinTextSize">@dimen/_3ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/_4sdp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="textPoppinsRegular16">
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?colorPrimaryVariant</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="autoSizeMaxTextSize">@dimen/_12ssp</item>
+        <item name="autoSizeMinTextSize">@dimen/_3ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/_4sdp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="textPoppinsMedium16">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?colorPrimaryVariant</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="autoSizeMaxTextSize">@dimen/_12ssp</item>
+        <item name="autoSizeMinTextSize">@dimen/_3ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/_4sdp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="textPoppinsRegular14">
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?colorPrimaryVariant</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="autoSizeMaxTextSize">@dimen/_10ssp</item>
+        <item name="autoSizeMinTextSize">@dimen/_3ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/_4sdp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="textPoppinsMedium14">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?colorPrimaryVariant</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="autoSizeMaxTextSize">@dimen/_12ssp</item>
+        <item name="autoSizeMinTextSize">@dimen/_3ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/_4sdp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="textPoppinsMedium12">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?colorPrimaryVariant</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="autoSizeMaxTextSize">@dimen/_11ssp</item>
+        <item name="autoSizeMinTextSize">@dimen/_3ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/_4sdp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="textDes">
+        <item name="fontFamily">@font/vazir_regular</item>
+        <item name="android:letterSpacing">.13</item>
+        <item name="android:textStyle">normal</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="autoSizeMaxTextSize">@dimen/_13ssp</item>
+        <item name="autoSizeMinTextSize">@dimen/_3ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/_4sdp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="textTitle">
+        <item name="fontFamily">@font/vazir_regular</item>
+        <item name="android:letterSpacing">.13</item>
+        <item name="android:textStyle">normal</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="maxLines">1</item>
+        <item name="autoSizeMaxTextSize">@dimen/_16ssp</item>
+        <item name="autoSizeMinTextSize">@dimen/_3ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/_4sdp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+
+    <style name="Widget.AppTheme.TextInputLayoutList" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="colorPrimary">?colorPrimaryVariant</item>
+        <item name="android:textColorHint">?colorPrimaryVariant</item>
+        <item name="hintAnimationEnabled">true</item>
+        <item name="boxStrokeColor">@color/red</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="hintTextAppearance">@style/TextLabelHint</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="autoSizeMaxTextSize">@dimen/_11ssp</item>
+        <item name="autoSizeMinTextSize">@dimen/_3ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/_4sdp</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/_25sdp</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/_25sdp</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/_25sdp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/_25sdp</item>
+    </style>
+
+    <style name="TextLabelHint" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="TextInputEditText">
+        <item name="android:textColor">?colorPrimaryVariant</item>
+    </style>
+
+</resources>
